@@ -1,0 +1,108 @@
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+h1 {
+    margin-left: 25px;
+    padding: 15px 0px;
+}
+
+body {
+    font: 14px "Poppins";
+    background: #f9f9f9;
+    color: #414042;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 150px 0px 0px 0px;
+    min-height: 100vh;
+    min-width: 960px;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background: #00386B;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: left;
+    height: 100%;
+}
+
+nav ul li {
+    padding: 0 20px;
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 4.3em;
+}
+
+nav ul a {
+    color: white;
+    padding: 8px 0;
+    text-decoration: none;
+}
+
+table {
+    margin-left: 80px;
+    border-spacing:0;
+    border: 1px solid black;
+    text-align: center;
+    width: 500px;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+button {
+    padding: 10px 16px;
+    font-weight: 600;
+    background: #00386B;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    background: #2954c2;
+}
+
+button:active {
+    background: #204199;
+}
+
+input {
+    min-width: 250px;
+    padding: 12px;
+    border: 1px solid #909090;
+    height: 20px;
+}
+
+button, input {
+    margin-top: 1rem;
+    outline: none;
+}
+
+.obrazek {
+margin-left: 310px;
+    width: 150px;
+}
+
+.vlozeni {
+    margin-left: 250px;
+}
+

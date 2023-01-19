@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+    <meta charset="UTF-8">
+    <title>Pojištěnci</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+             <ul>
+                <li>
+                    <a href="#">Pojištěnci</a>
+                </li>
+                <li>
+                    <a href="#">O aplikaci</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<h1>Pojištěnci</h1>
+<div id="list">
+<table>
+    <thead>
+    <tr>
+        <th>Příjmení</th>
+        <th>Jméno</th>
+        <th>Telefonní číslo</th>
+        <th>Věk</th>
+    </tr>
+</thead>
+<tbody id="tableData"></tbody>
+</table>
+</div>
+
+<h1>Nový pojištěnec</h1>
+
+<img src="obrazek/user.png" alt="uzivatel" class="obrazek" />
+<div class="vlozeni">
+<input type="text" id="name" class="vlozeniBunky" placeholder="Jméno"><br>
+<input type="text" id="surname" class="vlozeniBunky" placeholder="Příjmení"><br>
+<input type="tel" id="phoneNumber" class="vlozeniBunky" placeholder="Telefonní číslo"><br>
+<input type="date" id="date" class="vlozeniBunky" placeholder="Datum narození"><br>
+<button id="confirm">Potvrdit</button>
+</div>
+<script src="Seznam.js"></script>
+<script src="Pojistenec.js"></script>
+<script src="obsluha.js"></script>
+</body>
+</html>
